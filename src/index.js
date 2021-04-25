@@ -21,7 +21,7 @@ function createElements(data) {
       elementName.classList.add('item__title')
 
       const elementPrice = document.createElement('section');
-      elementPrice.textContent = price;
+      elementPrice.textContent = fromatPrice(price);
 
       const elementImage = document.createElement('img');
       let routeImage = `https://platzi-avo.vercel.app/${image}`;
@@ -39,4 +39,12 @@ function createElements(data) {
       allElements.push(containerItem);
    });
    return allElements;
+}
+
+const fromatPrice = (price)=>{
+   const newPrice = new  window.Intl.NumberFormat("en-En" , {
+      style: "currency",
+      currency: "USD"
+   }).format(price)
+   return newPrice
 }
