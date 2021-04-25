@@ -23,3 +23,32 @@ header {
 .titulo {
    color: #6b2dbd;
 }
+
+.container{
+   margin-top: 50px;
+   display: grid;
+   grid-template-columns: repeat( auto-fit, minmax(320px, 1fr) );
+   grid-gap: 30px;
+}
+.containerItem {
+   width: 300px;
+   min-height: 110px;
+   display: flex;
+   margin: 0 auto;
+   padding: 10px;
+   border-radius: 10px;
+}
+.containerItem:hover{
+   background-color: #a478df;
+}
+
+.item__image {
+   width: 100px;
+   border-radius: 50%;
+}
+.item__title{
+   font-size: 20px;
+}
+.item__Details{
+   margin-left: 10px;
+}
