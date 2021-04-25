@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Open Sans', sans-serif;
+}
+header {
+   display: flex;
+   margin: 25px;
+   justify-content: space-between;
+   align-items: center;
+}
+.redesSocialeslink {
+   text-decoration: none;
+   color: #6b2dbd;
+   font-size: 16px;
+   margin: 10px;
+}
+.redesSocialeslink:hover {
+   text-decoration: underline;
+}
+.titulo {
+   color: #6b2dbd;
+}
