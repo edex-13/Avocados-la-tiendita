@@ -1,0 +1,11 @@
+{
+  "name": "avocados-la-tiendita",
+  "version": "1.0.0",
+  "description": "Este es un proyecto hecho en el curso de manipulacion del DOM de platzi",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ederson Felipe Lopez Bolivar <ederson12f@gmail.com>",
+  "license": "MIT"
+}
